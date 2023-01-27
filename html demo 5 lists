@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<ol> 
+
+<li> java </li>
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ol>
+
+
+<ul> 
+
+<li> java </li>
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ul>
+
+
+<ol type="A"> 
+
+<li> java </li>
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ol>
+
+
+<ol type="a"> 
+
+<li> java </li>
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ol>
+
+
+<ol type="I"> 
+
+<li> java </li>
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ol>
+
+
+
+
+<ol type="I" start="4"> 
+
+<li> java </li>
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ol>
+
+
+
+
+
+<ol type="I" start="4"> 
+<li>  java 
+<ul type="disc">
+	<li> 
+	jse
+</li>
+<li>
+	jee
+ </li>
+ </ul>
+</li>
+
+<li> java script </li>
+<li> html </li>
+<li> css </li>
+
+</ol>
+
+
+<!--  -->
+
+
+
+<dl> 
+<dt> java</dt>
+	<dd> this is java  </dd>
+	<dd> we will learn java  </dd>
+		
+
+</dl>
+
+
+
+
+
+</body>
+
+</html>
