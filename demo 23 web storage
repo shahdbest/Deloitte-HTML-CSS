@@ -1,0 +1,66 @@
+---------------demo 1 
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+
+<script type="text/javascript">
+	
+	function storeData()
+	{
+		localStorage.uname="raj";
+
+	localStorage.setItem("uname1","rajesh");	
+	}
+
+
+</script>
+
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+<button onclick="storeData()"> store data </button>
+
+</body>
+
+
+</html>
+
+
+-----------------------demo 2 get data 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+
+<script type="text/javascript">
+	
+	function getData()
+	{
+		var name= localStorage.uname;
+		alert(name);
+		var name1= localStorage.getItem("uname1");
+		alert(name1);
+
+
+	}
+
+
+</script>
+
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+<button onclick="getData()"> get data </button>
+
+</body>
+
+
+</html>
