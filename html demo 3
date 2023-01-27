@@ -12,7 +12,7 @@
 <!-- bad practice -->
 
 <img src="img/lion.jpg" width="100px" height="300">
-<!-- good practice -->
+<!-- good practice (DOWNLOAD AND SAVE THE LION.JPG attached in git in a folder named img under main folder where u have saved html file) -->
 
 </body>
 
