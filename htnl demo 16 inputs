@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<form action="demo2.html" method="get">
+
+
+<input type="text" maxlength="10">
+
+<select name="country">
+	
+	<option> India</option>
+	<option> pakistan</option>
+
+	<option> Japan</option>
+	<option> Bangladesh</option>
+
+</select>
+
+<select name="country" multiple="multiple">
+	
+	<option> India</option>
+	<option> pakistan</option>
+
+	<option> Japan</option>
+	<option> Bangladesh</option>
+
+</select>
+
+<textarea rows="5" >  hi this is text area</textarea>
+
+
+
+<textarea rows="5" readonly="">  hi this is read only text area</textarea>
+
+
+
+<input type="date" max="2023-01-28" name="dob">
+
+
+<input type="submit">
+
+
+<!-- search for pattern property of html text box -->
+</form>
+
+</body>
+
+
+</html>
