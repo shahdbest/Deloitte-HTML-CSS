@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+
+<img src="img/lion.jpg" width="100px">
+
+
+<img src="img/lion.jpg" width="100px" height="300">
+
+</body>
+
+</html>
