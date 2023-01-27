@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+<table border="2px" width="80%">
+<thead>
+<tr> 
+<th> 
+Name
+</th>
+	
+<th> 
+Roll No
+</th>
+	
+
+	<th> 
+Sem
+</th>
+	
+
+	<th> 
+Gender
+</th>
+	</tr>
+
+</thead>
+
+<tbody>
+<tr> 
+<td> 
+Raj
+</td>
+
+ 
+<td> 
+1
+</td>
+
+
+ 
+<td> 
+5
+</td>
+
+
+ 
+<td> 
+Male
+</td>
+
+
+
+
+
+<tr> 
+
+<td> 
+Raju
+</td>
+
+ 
+<td> 
+11
+</td>
+
+
+ 
+<td> 
+3
+</td>
+
+
+ 
+<td> 
+Male
+</td>
+
+
+
+</tr>
+</tbody>
+<!--  footer begins here -->
+
+<tfoot>
+
+<tr align="center"> 
+
+<td colspan="4"> 
+this is students data
+</td>
+
+
+
+</tr>
+</tfoot>
+
+
+
+</table>
+
+
+
+
+</body>
+
+</html>
