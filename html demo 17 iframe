@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<p> this is my demo 1 </p>
+
+<iframe src="demo2.html">
+	
+</iframe>
+
+
+
+</body>
+
+
+</html>
