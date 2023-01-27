@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<form action="demo2.html" method="get">
+
+<label> gender</label>
+
+<input type="radio" name="gender" value="MALE"> male
+<input type="radio" name="gender" value="FEMALE"> female
+<input type="radio" name="gender" value="OTHER"> other
+
+<br>
+
+
+<input type="submit">
+
+
+
+</form>
+
+</body>
+
+
+</html>
