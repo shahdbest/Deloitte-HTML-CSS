@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+<a href="demo2.html"> click me </a> 
+<!-- internal  -->
+
+<br>
+<a href="http://www.google.com"> google </a> 
+
+<!-- external -->
+
+
+<a href="http://www.google.com"> <img src="img/glogo.png" width="10px">   </a> 
+
+
+<a href="http://www.google.com" target="_blank"> <img src="img/glogo.png" width="10px">   </a> 
+
+
+
+</body>
+
+</html>
