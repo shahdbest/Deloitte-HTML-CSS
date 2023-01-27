@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+
+<img src="C://Users//HP//Desktop//wipro 128//img//lion.jpg" width="100px">
+<!-- bad practice -->
+
+<img src="img/lion.jpg" width="100px" height="300">
+<!-- good practice -->
+
+</body>
+
+</html>
