@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<form action="demo2.html">
+	
+	<input type="text" name="uname" placeholder="user name">
+	<input type="text" name="mobilenumber"  placeholder="contact">
+<input type="submit" value="form submit">
+</form>
+
+
+
+
+	<input type="text" name="uname1" placeholder="user name">
+	<input type="text"  name="mobilenumber1" placeholder="contact">
+		<a href="demo2.html"> 
+		<input type="submit" value="ahref">
+</a>
+</body>
+
+
+</html>
