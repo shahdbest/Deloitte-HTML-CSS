@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<mark> 
+hello world
+</mark>
+
+
+<strong>
+	
+	this is strong
+</strong>
+
+<del> 
+this is deleted
+</del>
+
+<br>
+hello &nbsp &nbsp &nbsp &nbsp &nbsp         world
+
+<br>
+
+hello &ensp; &ensp;         world with ensp
+<br>
+<---
+
+
+&#8592;
+
+
+<br>
+
+&larr;
+<br>
+
+
+&pound;
+
+&euro;
+
+copyright &copy; abcsoftwaresolution.com
+
+
+<!-- my code starts here -->
+
+<pre> 
+
+class HtmlDemo{
+	
+	public static void main(String args[]){
+	System.out.println("tetsing html page");
+
+	}
+}
+</pre>
+
+
+<p> if u want to color ur html font use  </p>
+
+<Pre> < font color="red"> ur text is here </font> </Pre>
+
+
+
+</body>
+
+</html>
