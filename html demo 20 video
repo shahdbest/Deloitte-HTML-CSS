@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+	<video width="300" controls=""> 
+<source src="img/cgi video.mp4" type="video/mp4">
+	</video>
+
+</body>
+
+
+</html>
