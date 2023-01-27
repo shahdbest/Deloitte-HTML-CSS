@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+hello this is my first html
+
+<h1> this is h1</h1>
+
+<h2> this is h2</h2>
+
+<h6> this is h6</h6>
+
+<b> 
+this 
+</b>
+ is under body
+<i> 
+
+this is italic </i>
+
+<u>  this is underlined</u>
+
+
+<center>
+	
+	hi this is under center tag
+</center>
+
+
+<left> 
+this is left tag which isnt der
+
+</left>
+
+<br>
+
+<kuchbhi> 
+this is left tag which isnt der
+
+</kuchbhi>
+<br>
+<right> 
+this is right tag which isnt der
+
+</right>
+
+
+<div align="right">
+this text has to be at d right align
+</div>
+
+
+hello 
+world
+
+<div> 
+	hello
+</div>
+
+<div> 
+	world
+</div>
+
+
+
+<div>
+<font color="red" face="algerian" size="4"> 
+	let's format this
+</font>
+</div>
+
+<div>
+<font color="red" face="algerian" size="4px"> 
+	let's format this
+</font>
+</div>
+
+
+<marquee> 
+
+this will float
+
+</marquee>
+
+
+<marquee direction="right"> 
+
+this will float
+
+</marquee>
+
+
+<marquee direction="right" scrollamount="1" bgcolor="#6b5da3"> 
+
+this will float
+
+</marquee>
+
+
+
+
+
+</body>
+
+</html>
