@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<fieldset>
+	
+user name	<input type="text" name="">
+<br>
+password	<input type="text" name="">
+
+<legend align="center"> login here</legend>
+</fieldset>
+
+
+</body>
+
+
+</html>
