@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+
+</body>
+
+<form> 
+
+<label> search product</label>
+
+<input type="text">
+
+<input type="submit" value="search">
+
+
+<input type="text" placeholder="user name">
+
+
+<input type="password" placeholder="password">
+
+<button> sign in</button>
+
+</form>
+
+</html>
