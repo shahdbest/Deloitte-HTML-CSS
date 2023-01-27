@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my web page</title>
+</head>
+
+<body bgcolor="#9da9b3">
+
+<form action="demo2.html" method="get">
+
+<label> gender</label>
+
+<input type="radio" name="gender"> male
+<input type="radio" name="gender"> female
+<input type="radio" name="gender"> other
+
+<br>
+
+
+<label> chose plan</label>
+
+<input type="radio" name="plan"> basic
+<input type="radio" name="plan"> prime
+
+
+
+</form>
+
+</body>
+
+
+</html>
