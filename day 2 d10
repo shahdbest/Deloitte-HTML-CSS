@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		
+
+		div p {
+
+			background-color: green;
+		}
+
+
+		 div > p{
+			background-color: red;
+		}
+
+
+
+	</style>
+
+
+</head>
+<body>
+
+
+<p> this is p </p>
+
+
+<div> this is div </div>
+
+<div> 
+<p>  this is p under div immediate child</p>
+</div>
+
+
+
+<p> p after div </p>
+
+
+
+<div> 
+<b> 
+<p>  test </p>
+</b>
+</div>
+
+
+
+</body>
+</html>
