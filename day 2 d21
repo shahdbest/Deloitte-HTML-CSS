@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+
+<!-- <style type="text/css">
+
+div{
+background-color: aquA;
+color: WHITE;
+}
+
+	
+</style>
+ -->
+
+</head>
+
+<body>
+<div> 
+company name
+</div>
+
+
+<div> 
+company name
+</div>
+
+
+<div style="background-color: aqua; color: yellow"> 
+special div
+</div>
+
+
+</body>
+
+
+
+
+
+
+</html>
