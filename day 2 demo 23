@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+<ul> 
+<li class="glyphicon glyphicon-home"> 
+
+
+<a href=""> home </a> 
+</li>
+
+<li class="glyphicon glyphicon-envelope"> 
+<a href=""> contact </a> 
+</li>
+
+<li>
+<a href=""> setting </a> 
+</li>
+<li>
+<a href=""> about us </a> 
+</li>
+<li>
+<a href=""> logout </a> 
+</li>
+</ul>
+
+
+<button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-home"></span> Home
+        </button>
+     
+
+
+<button type="button" class="btn btn-default btn-sm">
+          <span class="glyphicon glyphicon-trash"></span>        </button>
+     
+
+
+
+<button type="button" class="btn btn-danger btn-sm">
+          <span class="glyphicon glyphicon-trash"></span>        </button>
+    
+
+
+
+
+
+<button type="button" class="btn btn-primary btn-lg">
+          <span class="glyphicon glyphicon-search"></span>        </button>
+    
+
+
+</body>
+
+
+
+
+
+
+</html>
