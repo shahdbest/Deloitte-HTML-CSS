@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		
+		.col3{
+
+			column-count: 3;
+			column-gap: 10px;	
+				column-rule-style:solid;
+				column-rule-width: 10px; 
+		}
+
+
+	</style>
+
+
+</head>
+
+<body>
+
+
+<div class="col3"> 
+testing float property testing float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float property
+
+
+testing float property testing float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float property
+
+END OF DIV
+
+</div>
+
+<p> this is p tag 
+</p>
+
+
+</body>
+
+
+
+
+
+
+</html>
