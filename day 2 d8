@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		
+		 div,p,h1{
+			background-color: red;
+		}
+
+	</style>
+
+
+</head>
+<body>
+
+<h1>  this is h1 </h1>
+
+<p> this is p </p>
+
+<div> this is div </div>
+
+
+<p> 
+
+
+<div> 
+
+	div under p tag 
+</div>
+
+</p>
+
+
+<div> 
+
+<p> test p in div child selector </p>
+</div>
+
+</body>
+</html>
