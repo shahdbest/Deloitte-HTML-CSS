@@ -1,0 +1,64 @@
+--------------cssdemo.html 
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="mainstyle.css">
+
+</head>
+
+<body>
+<div> 
+company name
+</div>
+
+
+
+</body>
+
+
+
+
+
+
+</html>
+
+
+--------------------------------
+mainstyle.css
+-------------------------------
+
+div{
+	font-family: algerian;
+				font-size: 20px;
+				color: red;
+	
+}
+
+
+
+-----------------------------------------cssdemo2.html 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="mainstyle.css">
+
+	<title></title>
+</head>
+<body>
+
+
+<div> 
+company name
+</div>
+
+</body>
+</html>
+
+
+
+
+
