@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+td{
+
+text-align: center;
+
+}
+
+thead td{
+
+text-align: center;
+font-size: 20px;
+color: blue;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+<table width="80%" border="2px">
+	
+	<thead>
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+</thead>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+	<tr> 
+
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+<td> asjhsad sadhkjsa </td>
+	</tr>
+
+
+</table>
+
+
+</body>
+
+</html>
