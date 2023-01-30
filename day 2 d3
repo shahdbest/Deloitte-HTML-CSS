@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+	
+	p{
+	
+	}
+
+.mylogo
+{
+	color: white;
+	font-family: algerian;
+	font-size: 40px;	
+
+}
+
+</style>
+	
+
+</head>
+
+
+<body bgcolor="#445566">
+
+
+<p> 
+My Company Name
+</p>
+
+
+<div> 
+
+some text here
+</div>
+
+
+<p class="mylogo"> 
+My Company Name
+</p>
+
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+<div class="mylogo"> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+
+<p class="mylogo">
+My Company Name
+</p>
+
+
+<p>this is just a p tag </p>
+
+
+</body>
+
+</html>
