@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+body{
+/*background-color: #445511; css comment*/
+
+background-image: url("img/lion.jpg");
+/*background-repeat: no-repeat;*/
+background-size: 400px 400px;
+opacity: 0.5;
+}
+
+p{
+	background-color: black; 
+	height: 100px;
+	color: white;
+}
+
+</style>
+
+
+
+</head>
+
+
+<!-- 
+<body background="img/lion.jpg">
+ -->
+
+<!-- 	html comment -->
+
+
+<body>
+
+	<p> this is my p tag </p>
+
+</body>
+
+</html>
