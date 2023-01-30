@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+div{
+	background-color: red;
+	height: 100px;
+	width: 100px;
+}
+
+/* using position property place the divs one after another as shown in d diagram */
+
+</style>
+
+
+
+</head>
+
+<body>
+<div> 
+div 1
+</div>
+
+
+<div> 
+div 2
+</div>
+
+
+<div> 
+div 3
+</div>
+
+
+
+</body>
+
+</html>
