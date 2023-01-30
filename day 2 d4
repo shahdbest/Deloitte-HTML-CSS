@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+
+div{
+	color: white;
+	background-color:green;
+	font-size: 40px;
+}		
+
+.test{
+	background-color: red;
+	font-size: 20px;
+}
+
+#mytxt{
+	background-color: blue;
+	
+}
+
+
+</style>
+
+
+
+</head>
+
+
+
+<body bgcolor="#445566">
+
+
+<input type="" id="mytxt">
+
+<p id="mytxt"> p with id mytxt </p>
+
+<p> this is p tag</p>
+
+<div> this is div </div>
+
+
+<p class="test"> this is p tag with class </p>
+
+<div> just a div </div> 
+
+<div class="test"> 
+ div with test class .. test class background is red div background is green 
+
+</div> 
+
+
+
+
+
+</body>
+
+</html>
