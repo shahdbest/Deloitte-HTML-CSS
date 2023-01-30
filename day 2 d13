@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		
+		p{
+			display: none;
+		}
+
+		a{
+			display: block;
+		}
+		
+		li{
+			display: inline;
+		}	
+
+
+
+	</style>
+
+
+</head>
+
+<body>
+
+
+<a href=""> test 1 anchor</a>
+
+<a href=""> test 2 anchor</a>
+
+<a href=""> test 3 anchor</a>
+
+<ul> 
+
+<li>list item test 1</li>
+<li>list item test 1</li>
+<li>list item test 1</li>
+
+</ul>
+
+<p> this is p tag </p>
+
+
+</body>
+
+
+
+
+
+
+</html>
