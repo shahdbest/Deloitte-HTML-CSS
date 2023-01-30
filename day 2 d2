@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style type="text/css">
+	
+	p{
+	color: white;
+	font-family: algerian;
+	font-size: 40px;	
+
+	}
+
+</style>
+	
+
+</head>
+
+
+<body bgcolor="#445566">
+
+
+<p> 
+
+
+My Company Name
+
+</p>
+
+
+<div> 
+
+some text here
+</div>
+
+
+<p> 
+
+
+My Company Name
+
+</p>
+
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+<div> 
+
+some text here
+</div>
+
+
+<p>
+My Company Name
+
+</p>
+
+
+
+
+
+
+</body>
+
+</html>
