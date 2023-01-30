@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+
+			/*.mydemo{
+				background-color: red;
+			}
+*/
+
+			.flexDemo{
+
+				display: flex;
+				background-color: blue;
+				//flex-direction: column;
+			}
+
+				.flexDemo > div
+				{
+					background-color: green;
+					margin: 20px;
+					padding: 50px;	
+				}
+
+			@media(max-width: 600px)
+			{
+
+/*					.mydemo{
+						background-color: pink;
+					}
+*/
+				.flexDemo{
+					flex-direction: column;
+				}			
+
+
+			}		
+
+	</style>
+
+
+</head>
+
+<body class="mydemo">
+
+<div class="flexDemo"> 
+
+
+<div> div 1 </div>
+
+<div> div 2 </div>
+
+<div> div 3 </div>
+
+<div> div 4 </div>
+
+</div>
+
+
+</body>
+
+
+
+
+
+
+</html>
