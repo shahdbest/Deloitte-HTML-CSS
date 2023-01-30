@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		
+			div{
+				width: 300px;
+				height: 200px;
+				background-color: red;
+				//overflow: hidden;
+				//overflow: visible;
+				//overflow: scroll;
+				overflow: auto;
+			}
+
+	</style>
+
+
+</head>
+
+<body>
+
+
+<div> 
+testing float property testing float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float property
+
+
+testing float property testing float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float property
+
+END OF DIV
+
+</div>
+
+<p> this is p tag 
+</p>
+
+
+</body>
+
+
+
+
+
+
+</html>
