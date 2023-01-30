@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<style type="text/css">
+		
+
+			body{
+				float: left;
+			}
+
+			img{
+				//float: left;
+				float: right;	
+					//float: none;
+			
+			//float:inherit;
+			}
+
+
+	</style>
+
+
+</head>
+
+<body>
+
+
+<img src="img/lion.jpg" width="400px">
+
+testing float property testing float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float propertytesting float property
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
