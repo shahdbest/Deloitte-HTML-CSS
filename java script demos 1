@@ -1,0 +1,325 @@
+
+
+1. What is JavaScript?
+
+JavaScript is a programming language of the web.
+
+It adds interactivity to HTML & CSS (which are otherwise static).
+
+Example: Buttons that respond, forms that validate, animations, etc.
+
+👉 Without JS → websites are just “read-only”.
+👉 With JS → websites can “react” to users.
+
+2. Why Use JavaScript? (Advantages)
+
+Runs directly in the browser, no extra setup.
+
+Makes websites dynamic and interactive.
+
+Works with HTML & CSS easily.
+
+Used everywhere → frontend (browser) + backend (Node.js).
+
+Huge community + frameworks (React, Angular, Vue).
+
+3. How to Write JavaScript?
+Two main ways:
+
+Inline / Internal → inside <script> tag in HTML.
+
+External → linking .js file with <script src="file.js"></script>.
+
+
+
+//-------------------------------------------------------------
+
+
+🔹 ES5 vs ES6 (Simplified Explanation)
+
+ES = ECMAScript = Official standard of JavaScript.
+
+ES5 (2009) → Older version (still supported everywhere).
+
+ES6 (2015) → Big upgrade, modern syntax (default in teaching now).
+
+
+
+| Feature   | ES5                        | ES6                                  |
+| --------- | -------------------------- | ------------------------------------ |
+| Variable  | `var`                      | `let`, `const` (better scoping)      |
+| Functions | `function myFunc() {}`     | Arrow functions `() => {}`           |
+| Strings   | `"Hello " + name`          | Template literals \`Hello \${name}\` |
+| Loops     | `for (var i=0; i<10; i++)` | `for...of`, `for...in`               |
+| Objects   | Normal only                | Classes & Modules supported          |
+
+
+//----------------------- hello world------------------------------------------------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Basics</title>
+</head>
+<body>
+  <h2>Welcome to JavaScript</h2>
+
+  <button onclick="sayHello()">Click Me</button>
+
+  <script>
+    function sayHello() {
+      alert("Hello World from JavaScript!");
+      console.log("Hello in Console");
+    }
+  </script>
+</body>
+</html>
+
+
+//-------------------------------------- variables in js 
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Variables Demo</h2>
+  <script>
+    var oldVar = "I am var";     // function scoped
+    let newVar = "I am let";     // block scoped
+    const fixedVar = "I cannot change"; // constant
+
+    document.write(oldVar + "<br>");
+    document.write(newVar + "<br>");
+    document.write(fixedVar + "<br>");
+  </script>
+</body>
+</html>
+
+
+//----------------------------------data types 
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Data Types</h2>
+  <script>
+    let name = "Shahid";   // String
+    let age = 25;          // Number
+    let isStudent = true;  // Boolean
+    let marks;             // Undefined
+    let empty = null;      // Null
+
+    document.write(typeof name + "<br>");
+    document.write(typeof age + "<br>");
+    document.write(typeof isStudent + "<br>");
+    document.write(typeof marks + "<br>");
+    document.write(typeof empty + "<br>");
+  </script>
+</body>
+</html>
+//----------------------DOM 
+
+    🌳 What is DOM in JavaScript?
+
+DOM (Document Object Model) is a programming interface for HTML and XML documents.
+It represents the page so that programs (like JavaScript) can manipulate the structure, style, and content dynamically.
+
+👉 In simple words: DOM is the tree structure representation of an HTML page.
+Each tag in HTML becomes a node in the DOM tree (like <html>, <body>, <h1>, etc.).
+
+📌 Why DOM is Important?
+
+JavaScript can access and change HTML elements.
+
+JavaScript can change CSS styles dynamically.
+
+JavaScript can react to user events (click, input, hover, etc.).
+
+DOM makes your page interactive.
+
+🖼️ DOM Representation (Tree Example)
+
+HTML:
+
+<html>
+  <body>
+    <h1>Hello Students</h1>
+    <p>This is a paragraph</p>
+  </body>
+</html>
+
+
+DOM Tree:
+
+Document
+ └── html
+      └── body
+           ├── h1 → "Hello Students"
+           └── p  → "This is a paragraph"
+
+
+//------------------------------------DOM manipulation
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2 id="title">Before Click</h2>
+  <button onclick="changeText()">Click Me</button>
+
+  <script>
+    function changeText() {
+      document.getElementById("title").innerHTML = "After Click!";
+    }
+  </script>
+</body>
+</html>
+
+//----------------------events
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Events Demo</h2>
+  <button onclick="sayHello()">Click Me</button>
+
+  <script>
+    function sayHello() {
+      alert("Hello! Button clicked.");
+    }
+  </script>
+</body>
+</html>
+
+--------------------------------
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Change Background Color</h2>
+  <button onclick="changeColor()">Change Color</button>
+
+  <script>
+    function changeColor() {
+      document.body.style.backgroundColor = "lightblue";
+    }
+  </script>
+</body>
+</html>
+-----------------------------------display date time 
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+ 
+
+--------------------------------. Show Text When Hovered (onmouseover / onmouseout)
+
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2 onmouseover="hoverText()" onmouseout="resetText()">Hover over me</h2>
+
+  <script>
+    function hoverText() {
+      document.querySelector("h2").innerHTML = "Mouse is here!";
+    }
+    function resetText() {
+      document.querySelector("h2").innerHTML = "Hover over me";
+    }
+  </script>
+</body>
+</html>
+
+------------key pressed
+
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Key Press Demo</h2>
+  <input type="text" onkeyup="showKey(event)" placeholder="Type something...">
+  <p id="output"></p>
+
+  <script>
+    function showKey(event) {
+      document.getElementById("output").innerHTML = "You pressed: " + event.key;
+    }
+  </script>
+</body>
+</html>
+
+
+------------------ empty field validation
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Form Validation</h2>
+  <form onsubmit="return validateForm()">
+    <input type="text" id="username" placeholder="Enter username">
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function validateForm() {
+      let user = document.getElementById("username").value;
+      if (user === "") {
+        alert("Username cannot be empty!");
+        return false; // stop form submission
+      }
+      return true;
+    }
+  </script>
+</body>
+</html>
+
+------------------------password length validation
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Password Validation</h2>
+  <form onsubmit="return checkPassword()">
+    <input type="password" id="pass" placeholder="Enter password">
+    <button type="submit">Submit</button>
+  </form>
+
+  <script>
+    function checkPassword() {
+      let pwd = document.getElementById("pass").value;
+      if (pwd.length < 6) {
+        alert("Password must be at least 6 characters!");
+        return false;
+      }
+      return true;
+    }
+  </script>
+</body>
+</html>
+
+
+------------- functions 
+
+
+
+-----use functions as variable  
+<h1>JavaScript Functions</h1>
+<p>Using a function as a variable:</p>
+
+<p id="demo"></p>
+
+<script>
+let text = "The temperature is " + toCelsius(77) + " Celsius.";
+document.getElementById("demo").innerHTML = text;
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
+
+
+
